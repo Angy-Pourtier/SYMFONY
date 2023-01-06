@@ -76,16 +76,25 @@
   <h6 class=centrer> 
 
 	<div class="name">
-      <label for="exampleInputEmail1" class="form-label mt-4">NOM</label>
-      <input type="name" class="form-control" id="name" aria-describedby="nameHelp" placeholder="NOM">
+      <label for="name" class="form-label mt-4">NOM (3-16 characters)</label>
+      </label><br>
+      <input name="name" type="text" placeholder=" NOM " pattern="\w{3,16}" required>
 
     </div>
 
-	<div class="firstname">
-      <label for="exampleInputEmail1" class="form-label mt-4">PRENOM</label>
-      <input type="first-prenom" class="form-control" id="exampleInputprenom1" aria-describedby="prenomHelp" placeholder="PRENOM">
+	<div class="name">
+      <label for="name" class="form-label mt-4">PRENOM (3-30 characters)</label>
+      </label><br>
+      <input name="name" type="text" placeholder=" PRENOM " pattern="\w{3,30}" required>
 
     </div>
+
+                                                                    <div class="email">
+                                                                      <label for="email" class="form-label mt-4">PRENOM (3-30 characters)</label>
+                                                                      </label><br>
+                                                                      <input name="name" type="text" placeholder=" PRENOM " pattern="\w{3,30}" required>
+
+                                                                    </div>
 
     <div class="form-group">
       <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>

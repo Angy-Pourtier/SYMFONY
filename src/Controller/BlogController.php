@@ -21,17 +21,7 @@ class BlogController extends AbstractController
         
         
         ]);
-      
-        {
-            
-         
-            $this->setValidators(array(
-              'name'    => new sfValidatorString(array('required' => true) ),
-              'name'    => new sfValidatorString(array('min_length' => 4) ),
-              'email'   => new sfValidatorEmail(array(), array('invalid' => 'L\'adresse email est invalide.')),
-              ));
-            
-          }
+
 }
 
     /**
