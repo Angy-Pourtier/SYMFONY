@@ -2,7 +2,7 @@
 
 
 {% block body %}
-		 
+<div class="card mb-3">		 
 	<span>
 		<h1 id="titre"> CV  </h1>
 	</span>	
@@ -91,10 +91,61 @@
             <br>
 			<br>
 			<br>
+</div>
+<br>
+<br>
+         <form>
+
+	  <span>
+        <h5>FORMULAIRE D'IMPRESSION </h5>
+  </span>
+   </h5>
 
 
+  <h6 class=centrer> 
+
+	<div class="name">
+      <label for="name" class="form-label mt-4">NOM (3-16 characters)</label>
+      </label><br>
+      <input name="name" class="form-control" type="text" placeholder=" NOM " pattern="\w{3,16}" required>
+
+    </div>
+
+	<div class="name">
+      <label for="name" class="form-label mt-4">PRENOM (3-30 characters)</label>
+      </label><br>
+      <input name="name" class="form-control" type="text" placeholder=" PRENOM " pattern="\w{3,30}" required>
+
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
+      <input type="email" class="form-control" type="text" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputPassword1" class="form-label mt-4">Password (min 5 characters)</label>
+      <input name="password" class="form-control" type="text" placeholder=" Password " pattern="\w{5,20}" required>
+    </div>
+<br>
+     </fieldset>
 
 
+	<form>
+			<button type="submit" class="btn btn-primary" formaction="cvpage/"> ENVOYER </button>
+			<a href= "cvpage/" </a>
+	</form>
+
+        <br>
+		<br>
+		<br>
+		<br>
+
+</h6>
+
+
+			
 
 
 

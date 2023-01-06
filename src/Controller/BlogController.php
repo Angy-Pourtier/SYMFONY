@@ -62,6 +62,18 @@ class BlogController extends AbstractController
         ]);
         }
 
+    
+    /**
+    * @Route("/cvpage", name="cvpage")
+    */
+    public function cvpage()
+    {
+
+        return $this->render('cvpage/cv.html.twig', [
+
+    
+        ]);
+        }
 
 
 }
