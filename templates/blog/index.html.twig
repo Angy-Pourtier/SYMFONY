@@ -6,23 +6,24 @@
 {% block body %}
 	   
 	    
-<div class="card mb-3">
+<div class="card mb-5">
 
-<span>
+<span><p>
   <h1 id="titre"> Presentation </h1>
-
+</p>
 
 </span>
   
   <div class="card-body">
   </div>
-    <h6>  
+    <h6><p>
 			Naissance : 02/12/2004
 			<br>Téléphone : 06 67 14 75 01
 			<br>Email : angypourtier@gmail.com
 			<br>Adresse : 71 impasse de la liberation
 			<br>Nationaliter : Française
 			<br>
+      </p>
 			</h6>
 
 
@@ -31,14 +32,14 @@
 
 		  <span>
 	    <h4 class=centrer3>
-
+      <p>
 			Je serais pret a rejoindre 
       <br>votre societe et 
       <br>donner le meilleur 
       <br>que je puisse donner 
       <br>a cette entreprise 
 			<br>
-
+      </p>
 			</h4>
       </span>
 		</div>
@@ -61,61 +62,67 @@
         <div class="container">
         <a href="viepriver/" class="list-group-item list-group-item-action active">POUR EN SAVOIR PLUS</a>
             </div>
+
+        <h5 class=centrer> 
+        <div class="container">
+        <a href="indexanglais/" class="list-group-item list-group-item-action active">Traduire en anglais</a>
+            </div>    
         
         <br>
         <br>
         <br>
         <br>
+</div>
+        
 
-        <form>
-<span>
-      <fieldset>
-        <h5>ME CONTACTER </h5>
-  
+	  <span>
+        <h5>FORMULAIRE D'IMPRESSION </h5>
+  </span>
    </h5>
 
 
   <h6 class=centrer> 
 
 	<div class="name">
-      <label for="name" class="form-label mt-4">NOM (3-16 characters)</label>
+      <label for="name" class="form-label mt-4">NOM</label>
       </label><br>
-      <input name="name" class="form-control" type="text" placeholder=" NOM " pattern="\w{3,16}" required>
-
+      <input name="name" class="form-control" type="text" placeholder=" Nom " pattern="\w{3,16}" required>
+      <small id="emailHelp" class="form-text text-muted">(3-16 characters)</small>
     </div>
 
 	<div class="name">
-      <label for="name" class="form-label mt-4">PRENOM (3-30 characters)</label>
+      <label for="name" class="form-label mt-4">PRENOM</label>
       </label><br>
-      <input name="name" class="form-control" type="text" placeholder=" PRENOM " pattern="\w{3,30}" required>
+      <input name="name" class="form-control" type="text" placeholder=" Prenom " pattern="\w{3,30}" required>
+      <small id="emailHelp" class="form-text text-muted">(3-30 characters)</small>
 
     </div>
 
     <div class="form-group">
-      <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
+      <label for="exampleInputEmail1" class="form-label mt-4">Email</label>
       <input type="email" class="form-control" type="text" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
-      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      <small id="emailHelp" class="form-text text-muted">Nous ne communiquerons jamais votre adresse électronique à qui que ce soit.</small>
     </div>
 
     <div class="form-group">
-      <label for="exampleInputPassword1" class="form-label mt-4">Password</label>
-      <input name="password" class="form-control" type="text" placeholder=" Password " pattern="\w{5,20}" required>
+      <label for="exampleInputPassword1" class="form-label mt-4">MOT DE PASSE</label>
+      <input name="password" class="form-control" type="text" placeholder=" Mot de passe " pattern="\w{8,50}" required>
+      <small id="emailHelp" class="form-text text-muted">(min 8 characters)</small>
     </div>
 <br>
-     <fieldset>
-    <button type="submit" class="btn btn-primary">Envoyer</button>
-  </fieldset> 
+    
 
-        <br>
-		<br>
-		<br>
-		<br>
 
-</h6>
+	<form>
+			<button type="submit" class="btn btn-primary" formaction="cvpage/"> ENVOYER </button>
+	</form>
 
+<br><br><br>
+
+<span>
+<h7>
+		<a href="http://copyright.be" target="_blank">Copyright 2023 SAé1.4.com - Tous droits réservés</a>
+</h7>
 </span>
-
-			
-</div>
 
 {% endblock %}

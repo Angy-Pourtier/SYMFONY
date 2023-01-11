@@ -74,6 +74,19 @@ class BlogController extends AbstractController
     
         ]);
         }
+    
 
+    /**
+    * @Route("/indexanglais", name="indexanglais")
+    */
+    public function indexanglais()
+    {
+
+        return $this->render('indexanglais/indexanglais.html.twig', [
+
+    
+        ]);
+    }
 
 }
+
