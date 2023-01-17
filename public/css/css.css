@@ -47,6 +47,7 @@
     resize: none;
     width: 50%;
     align-items: center;
+    transition: opacity 1s ease-in-out;
 
 }
 
@@ -57,9 +58,18 @@
    justify-content: center;
    font-variant: small-caps;
    font-weight: bolder;
-            
-            
+         
    }	
+
+.centrer9{
+  text-align: center;	
+  justify-content: center;
+  font-variant: small-caps;
+  font-weight: bolder;
+  color: white;
+
+}
+
 
 .centrer2{
 
@@ -73,15 +83,54 @@
 
 .centrer3{
    position: absolute;
-   text-align: right;	
-   justify-content: right;
+   text-align: center;	
+   justify-content: center;
    font-variant: small-caps;
    font-weight: bolder;
-   font-weight: black;
-   left:45%;        
-            
-   } 
+   color: #dedeede3;
+   font-weight: 900;
+   font-family: 'Poppins', sans-serif;
+   font-size: 160%;
+   left:40%; 
+}  
 
+.centrer6{
+
+  text-align: center;	
+  justify-content: center;
+           
+           
+  }  
+
+.centrer7{
+  position: absolute;
+  text-align: center;	
+  justify-content: right;
+  font-variant: small-caps;
+  font-weight: bolder;
+  color: #9090d5;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+  left:50%; 
+}
+
+
+.masthead{
+
+  background-attachment:fixed;
+  background-size:cover;
+}
+
+   .centrer5{
+    position: absolute;
+    text-align: right;	
+    justify-content: right;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-weight: black;
+    left:60%;        
+             
+    } 
 
 span{
 display: flex;
@@ -92,19 +141,45 @@ justify-content: center;
 }	
 
 #titre{
-   font-size:1200%;
+   font-size:750%;
    text-align: center;	
    justify-content: center;
    font-variant: small-caps;
    font-weight: bolder;
+   text-decoration: underline;
+   color: #000000;
+   font-family: 'Poppins', sans-serif;
             
             
    }
 
+.container{
+  border: #484848;
+}
+
+
+
+.fond{
+  background: black;
+  border: 1ch solid #000000;
+  color:rgb(255, 255, 255);
+}
+
+.titreformulaire{
+  color:rgb(255, 255, 255);
+}
+
+.header2{
+  color:rgb(0, 0, 0);
+}
+
+.copy{
+  color:rgb(255, 255, 255);
+}
 
 
 h1 {
-   font-size: 760%;
+   font-size: 700%;
    font-variant: small-caps;
 }
 h2{
@@ -113,30 +188,26 @@ h2{
    }
 
 h3{
-   font-size: 450%;
+   font-size: 310%;
    font-variant: small-caps;
    
    }
    
 h4{
-   font-size: 290%;
+   font-size: 200%;
    font-variant: small-caps;
    }	
    
 h5{
-   font-size: 200%;
+   font-size: 170%;
    font-variant: small-caps;
    }
 
 h6{
-   font-size: 140%;
+   font-size: 100%;
    font-variant: small-caps;
 }   
 
-h7{
-  font-size: 70%;
-  font-variant: small-caps;
-}
 
    
 body{
@@ -200,6 +271,7 @@ border : 31,25% dotted black;
    color: #fff;
    font-size: 30px;
    font-weight: 20px;
+   font-family: monospace;
 
 
    text-shadow: 0 -1px 1px #0056b3;
@@ -219,6 +291,7 @@ border : 31,25% dotted black;
    text-shadow: 0 -1px 1px #0056b3;
    -webkit-transition: color 2s;
    transition: color 2s;
+   font-family: monospace;
  }
  .wrapper .child-tab label .icon{
    height: 27px;
@@ -269,9 +342,191 @@ border : 31,25% dotted black;
 }
 
 input:valid {
-  background-color: palegreen;
+
+  background-color: rgb(23, 217, 23);
 }
 
 input:invalid {
-  background-color: lightpink;
+
+  background-color: rgb(153, 73, 85);
 }
+
+
+
+
+
+#slideshow {
+	position: relative;
+	width: 740px;
+	height: 410px;
+	padding: 15px;
+	margin: 0 auto 2em;
+
+
+	/* CSS3 effects */
+
+}
+ 
+/* avanced box-shadow
+ * tutorial @
+ * https://www.creativejuiz.fr/blog/les-tutoriels/ombre-avancees-avec-css3-et-box-shadow 
+*/
+#slideshow:before,
+#slideshow:after {
+	position: absolute;
+	bottom:5px;
+	z-index: -10;
+	width: 50%;
+	height: 20px;
+	content: " ";
+	background: rgba(0,0,0,0.1);
+	border-radius: 50%;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.4), 0 20px 10px rgba(0,0,0, 0.7);
+  
+}
+#slideshow:before {
+	left:0;
+	transform: rotate(-4deg);
+}
+#slideshow:after {
+	right:0;
+	transform: rotate(4deg);
+}
+
+
+
+
+#slideshow .container {
+	position:relative;
+	width: 640px;
+	height: 450px;
+	overflow: hidden;
+  border : 5px solid;
+  border-image: linear-gradient(to right, #0f0c29, #302b63, #24243e) 10;
+
+}
+	
+/* on prévoit un petit espace gris pour la timeline */
+#slideshow .container:after {
+	position:absolute;
+	bottom: 0; left:0;
+	content: " ";
+	width: 100%;
+	height: 1px;
+	background: rgb(0, 0, 0);
+}
+/* 
+   le conteneur des slides
+   en largeur il fait 100% x le nombre de slides
+*/
+#slideshow .slider {
+	position: absolute;
+	left:0; top:0;
+	width: 600%;
+	height: 400%;
+}
+
+
+/* annulation des marges sur figure */
+#slideshow figure {
+	position:relative;
+	display:inline-block;
+	padding:0; margin:0;
+}
+/* petit effet de vignette sur les images */
+#slideshow figure:after {
+	position: absolute;
+	display:block;
+	content: " ";
+	top:0; left:0;
+	width: 100%; height: 100%;
+	box-shadow: 0 0 65px rgba(0,0,0, 0.5) inset;
+}
+
+
+#slideshow figcaption {
+	position:absolute;
+	left:0; right:0; bottom: 5px;
+	padding: 20px;
+	margin:0;
+	border-top: 1px solid rgb(0, 0, 0);
+	text-align:center;
+	letter-spacing: 0.05em;
+	word-spacing: 0.05em;
+	font-family: Georgia, Times, serif;
+	background: rgb(3, 2, 2);
+	background: rgba(255,255,255,0.7);
+	color: #555;
+	text-shadow: -1px -1px 0 rgba(255,255,255,0.3);
+}
+
+@keyframes slider {
+	0%, 20%, 100%	{ left: -7% }
+	25%, 45%		{ left: -125% }
+	50%, 70%		{ left: -242% }
+
+}
+
+#slideshow .slider {
+	/* ... avec la propriété animation */
+	animation: slider 18s infinite;
+}
+
+
+
+header span::before {
+ color: #7171cb;
+ content: "Déterminer";
+ animation: aaa 18s infinite;
+}
+
+
+@keyframes aaa {
+  0%{
+    
+    content: "Prête";
+  }
+
+  25%{
+    content: "Avec un excellent relationnel";
+  }
+
+  50%{
+    content: "Passioner de l'informatique";
+  }
+
+  75%{
+    content: "Qui a le sens de l'écoute";
+  }
+
+}
+
+
+
+.header3 span::before {
+  color: #7171cb;
+  content: "Determine";
+  animation: bbb 18s infinite;
+ }
+ 
+ 
+ @keyframes bbb {
+   0%{
+     
+     content: "Ready";
+   }
+ 
+   25%{
+     content: "With excellent interpersonal skills";
+   }
+ 
+   50%{
+     content: "Passionate about computers";
+   }
+ 
+   75%{
+     content: "Who is a good listener";
+   }
+ 
+ }
+

@@ -5,16 +5,15 @@
 
 {% block body %}
 
+
 <div class="card mb-3">
 	<span>
-		<h1 id="titre"> PORTOFOLIO  </h1>
+		<h1 id="titre"> E-PORTOFOLIO  </h1>
 	</span>	
+  <br><br><br><br><br><br><br>
+  <div class="wrapper">
 
- <br>
-  <br>
- <div class="wrapper">
-
-    <div class="parent-tab">
+    <div class="parent-tab tab-3">
       <input type="checkbox" name="tab" id="tab-1" >
       <label for="tab-1">
         <span>Programmation</span>
@@ -349,7 +348,59 @@
                         <div class="icon"><i class="fas fa-plus"></i></div>
                       </label>
                       <div class="sub-content">
-                        <p>Voici plusieurs programmes ayant des utiliter different comme ...</p>
+                        <p>J'ai pu écrire de nombreux programmes ayant des utiliter different mais voici un programmes par exemple ci-dessous qui permet de donner le revenus d'une personne apres impot :
+                        </p>
+                        <p><img src={{asset('photos/Capture.jpg')}} class="img4">
+                         <p>
+                                <br>LE CODE :
+
+                                        <br>#include<math.h>	
+                                        <br>#include<stdio.h>
+                                        <br>#include<stdlib.h>
+                                        <br>
+                                        <br>float montantimpot (int r , int n){
+                                          <br>
+                                        <br>float montant = r * n ;
+                                       <br> if (montant  < 500) {
+                                        <br>    return 10; 
+                                       <br> }
+                                       <br> else{
+                                       <br>       return 20;
+                                        <br>}
+                                       <br> }
+                                        <br>
+                                       <br> float revenunet (int r , int v){
+                                       <br> float revenus = r - r * (v/100.0);
+                                      <br>  return revenus;
+                                        <br>
+                                       <br> }
+                                          <br>
+                                        <br>int main(){
+                                        <br>
+                                       <br> int r;
+                                       <br> int n;
+                                        <br>
+                                        <br>do{
+                                         <br>     printf ("Donner votre revenu : \n "  );
+                                         <br>   scanf("%d",&r);
+                                       <br> } while (r<0);
+                                        <br>  
+                                       <br> do{
+                                        <br>      printf ("Combien de personnes au foyer : \n "  );
+                                         <br>   scanf("%d",&n);
+                                       <br> }while (n<1);
+                                        <br>
+                                        <br>
+                                         <br> printf("\n vous aurez %f % sur votre salaire ", montantimpot(r,n));  
+                                         <br> printf("\n Votre salaire sera de %f ",revenunet(r,  montantimpot(r,n))); 
+                                         <br> 
+                                            <br>
+                                        <br>return 0; 
+                                       <br> }
+
+
+
+                           </p>
                       </div>
                       
                     </div>
@@ -529,14 +580,38 @@
                             </div>
 
                             </div>
-             
-                 </div> 
+
+                     <div class="child-tab">
+                      <input type="checkbox" name="sub-tab" id="tab-15">
+                      <label for="tab-15">
+                        <span>Language html / css</span>
+                        <div class="icon"><i class="fas fa-plus"></i></div>
+                      </label>
+                      <div class="sub-content">
+                        <p>Cette premiere année d'IUT ma permis de decouvrire le language html / css ainsi que Symfony par la suite. J'ai du 
+                        crée dans un premier temps un blog sur un theme choisi par moi-meme en utilisant le Notpad++ et dans un deuxieme temps un site qui est celui ci.
+                       
+                        <div class=centrer6> 
+                        <br>Voici ci dessous quelque image de mon ancien blog :  </p>
+                                                <p><img src={{asset('photos/site.jpg')}} class="img4">
+                        
+                                                 <p><img src={{asset('photos/questionnaire.jpg')}} class="img4">
+                                                
+                          <p>Tout en étant résponsive :
+                          <br>
+                                                 <img src={{asset('photos/responsive.jpg')}} class="img4">
+                         </div>
+                      </div>
+                 </div>
+                      
+                    </div>
+
                  <br><br> 
     
 
 
     
-    <div class="parent-tab">
+    <div class="parent-tab tab-3">
       <input type="checkbox" name="tab" id="tab-2">
       <label for="tab-2">
         <span>Systeme electroniques</span>
@@ -551,7 +626,15 @@
                         <div class="icon"><i class="fas fa-plus"></i></div>
                       </label>
                       <div class="sub-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit dolor. Utfacilis labore, exercitationem fuga minima a illo modi vitaerse dignissimos? Vero?</p>
+                        <p>Cette premiere année nous avons manipuler de la plaque d'essaies qui n'était pas bien nouveau pour ma part, on n'a donc appris
+                        utiliser la plaque a troue pour manipuler et obtenir des mesures via le generayeur de tension et le multimetre. Voici quelque image 
+                        de réalisation de courant continus :</p>
+                        <p><img src={{asset('photos/a1.jpg')}} class="img4">
+                           </p>
+                           <p><img src={{asset('photos/a2.JPG')}} class="img4">
+                           </p>
+                           <p><img src={{asset('photos/a3.JPG')}} class="img4">
+                           </p>
                       </div>
                     </div>
 
@@ -565,6 +648,7 @@
                       </label>
                       <div class="sub-content">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit dolor. Utfacilis labore, exercitationem fuga minima a illo modi vitaerse dignissimos? Vero?</p>
+
                       </div>
                       
                     </div>
@@ -592,7 +676,11 @@
                         <div class="icon"><i class="fas fa-plus"></i></div>
                       </label>
                       <div class="sub-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit dolor. Utfacilis labore, exercitationem fuga minima a illo modi vitaerse dignissimos? Vero?</p>
+                        <p>Packet tracer a été pour moi cette année une nouvelle technologies que j'ai trouver tres interressant car cela nous permet de nous entrainer au develloppement de mini réseaux, a savoir bien brancher les switchs et pc,...
+                        <br>Voici ci dessous un mini réseaux crée pour une mini entreprise qui contient 4 LAN ou chacun d'entre eux est independant des uns des autres car chaque LAN a son propre Vlan :
+                           <p><img src={{asset('photos/packet.png')}} class="img4">
+                           </p>
+                        </p>
                       </div>
                     </div>
                     
@@ -606,7 +694,18 @@
                         <div class="icon"><i class="fas fa-plus"></i></div>
                       </label>
                       <div class="sub-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit dolor. Utfacilis labore, exercitationem fuga minima a illo modi vitaerse dignissimos? Vero?</p>
+                        <p>La configuration de switch est quelque chose de tout nouveau mais que j'ai apprécier a travailler dessus car j'ai beaucoup aimer le coter manipulation de commandes pour configurer les switchs. Que sa soit pour recuperer des 
+                        configuration de switch via le tftp, le ssh ou encors pour connecter deux pc entre eux et encors ... 
+                        <br>Voici donc quelque images de realisation de cablage entre deux pc et quelque extrait de configuration de switch :</p>
+                        <p>Voici une configuration qui nous a servis lors d'une realisation de topologies pour une mini entreprise :</p>
+                        
+                        <p><img src={{asset('photos/conf.jpg')}} class="img4">
+                           </p>
+                           <p>Cablage simple de réalisation :</p>
+                           <p><img src={{asset('photos/cablage.jpg')}} class="img4">
+                           </p>
+                           <p><img src={{asset('photos/preuve.jpg')}} class="img4">
+                           </p>
                       </div>
                     </div>
                  
@@ -615,7 +714,7 @@
     
 
     
-    <div class="parent-tab">
+    <div class="parent-tab tab-3">
       <input type="checkbox" name="tab" id="tab-6">
       <label for="tab-6">
         <span>Machine Virtuelle</span>
@@ -699,7 +798,8 @@
                         <div class="icon"><i class="fas fa-plus"></i></div>
                       </label>
                       <div class="sub-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit dolor. Utfacilis labore, exercitationem fuga minima a illo modi vitaerse dignissimos? Vero?</p>
+                        <p>Lors de cette premiere année j'ai pus decouvrire la création d'un client et d'un serveur via l'utlisation d'une machine virtuelle, ou l'on a appris a crée 2 
+                        interface réseaux, ou dans chaque serveur on a cree des dossier partager entre machine a partir de commande.   </p>
                       </div>
                       
                     </div>
@@ -708,9 +808,9 @@
   </div>
 
     <span>
-    <h7>
+    <h6>
         <a href="http://copyright.be" target="_blank">Copyright 2023 SAé1.4.com - Tous droits réservés</a>
-    </h7>
+    </h6>
     </span>
 
 

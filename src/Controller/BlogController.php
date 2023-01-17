@@ -37,6 +37,19 @@ class BlogController extends AbstractController
         }
 
     /**
+    * @Route("/homeanglais", name="home_anglais")
+    */
+    public function home_anglais()
+    {
+
+        return $this->render('homeanglais/home_anglais.html.twig', [
+
+    
+        ]);
+    }   
+
+
+    /**
     * @Route("/portofolio", name="portofolio")
     */
     public function portofolio()
@@ -83,6 +96,19 @@ class BlogController extends AbstractController
     {
 
         return $this->render('indexanglais/indexanglais.html.twig', [
+
+    
+        ]);
+    }
+
+
+    /**
+    * @Route("/viepriveranglais", name="viepriveranglais")
+    */
+    public function viepriveranglais()
+    {
+
+        return $this->render('viepriveranglais/viepriveranglais.html.twig', [
 
     
         ]);

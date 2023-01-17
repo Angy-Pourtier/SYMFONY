@@ -3,8 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}SAé 1.4{% endblock %}</title>
-        <link rel= "stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
+        <link rel= "stylesheet" href="{{asset('css/bootstrap.min.css')}}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typed.js@2.0.12">
+        
         {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
        
         {% block stylesheets %}{% endblock %}
@@ -12,34 +14,39 @@
 
     </head>
 	<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">SAé1.4</a>
+    
+
+   <a class="navbar-brand" href="/">ANGY POURTIER . </a>
+     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  
+   <a class="navbar-brand" href="blog/..">Accueil
+   &ensp;
+   <a class="navbar-brand" href="/blog">Cv</a>
+   &ensp;
+   <a class="navbar-brand" href="/portofolio">Portofolio</a>
+   &ensp;
+   <a class="navbar-brand" href="/viepriver">Mes loisirs</a>
+   
+ 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-		
-          <a class="nav-link" href="blog/..">Accueil
-            <span class="visually-hidden"></span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/blog">CV</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/portofolio">PORTOFOLIO</a>
-        </li>
-          </div>
-        </li>
+     
+     
+      </ul>
+
+
+      </div>
     </div>
 </nav>
 
-    <div class = "container">
+
     {% block body %}{% endblock %}
-    </div>
-      {% block javascript %}{% endblock %}
+
 	</body>
 </html>
