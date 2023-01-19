@@ -442,13 +442,13 @@ input:invalid {
 @keyframes slider {
 	0%, 20%, 100%	{ left: -7% }
 	25%, 45%		{ left: -125% }
-	50%, 70%		{ left: -242% }
+
 
 }
 
 #slideshow .slider {
 	/* ... avec la propriété animation */
-	animation: slider 18s infinite;
+	animation: slider 13s infinite;
 }
 
 
@@ -645,7 +645,7 @@ header span::before {
       display: block;
       border: 15px rgb(206, 157, 157);
       transform: translateX(-50%) translateY(-50%) rotate(0deg);
-      animation: 8s infinite alternate ease-in-out tipsy;
+      animation: 6s infinite alternate ease-in-out tipsy;
     }
 
     @keyframes tipsy {
@@ -653,7 +653,7 @@ header span::before {
         transform: translateX(-50%) translateY(-50%) rotate(0deg);
       }
       100% {
-        transform: translateX(-50%) translateY(-50%) rotate(9deg);;
+        transform: translateX(-50%) translateY(-50%) rotate(2.5deg);;
       }
       
     }
