@@ -99,7 +99,7 @@ class __TwigTemplate_a894b893a7848e0ec9f2ba2b0631185c extends Template
                     
                 <span>    
                     <p>
-                    Je suis une personne qui aime de nombreuse chose que sa soit aider les personnes qui en ont besoin, 
+                    Je suis une personne qui aime de nombreuse chose que sa soit aider les personnes, 
                     <br>travailler en equipe, passer du temps a l'éxtérieur, passer du temps avec ma famille ou encors ...
                     <br><br>
                         
@@ -120,7 +120,7 @@ class __TwigTemplate_a894b893a7848e0ec9f2ba2b0631185c extends Template
                 </span>
             
             <br><br>
-             Avec mes amis :
+             Sortire avec mes amis :
                     </p>
              </h5>
                     <br>
@@ -250,7 +250,7 @@ class __TwigTemplate_a894b893a7848e0ec9f2ba2b0631185c extends Template
                     
                 <span>    
                     <p>
-                    Je suis une personne qui aime de nombreuse chose que sa soit aider les personnes qui en ont besoin, 
+                    Je suis une personne qui aime de nombreuse chose que sa soit aider les personnes, 
                     <br>travailler en equipe, passer du temps a l'éxtérieur, passer du temps avec ma famille ou encors ...
                     <br><br>
                         
@@ -268,7 +268,7 @@ class __TwigTemplate_a894b893a7848e0ec9f2ba2b0631185c extends Template
                 </span>
             
             <br><br>
-             Avec mes amis :
+             Sortire avec mes amis :
                     </p>
              </h5>
                     <br>

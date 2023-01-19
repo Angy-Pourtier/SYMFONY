@@ -204,9 +204,9 @@ class __TwigTemplate_0ffdc40260358bbc502958cb7cf71f40 extends Template
                 </div>
 
                 <div class=\"form-group\">
-                  <label for=\"exampleInputPassword1\" class=\"form-label mt-4\">PASSWORD</label>
-                  <input name=\"password\" class=\"form-control\" type=\"text\" placeholder=\" PASSWORD \" pattern=\"\\w{8,50}\" required>
-                  <small id=\"emailHelp\" class=\"form-text text-muted\">(min 8 characters)</small>
+                  <label for=\"exampleInputPassword1\" class=\"form-label mt-4\">COMPANY NAME</label>
+                  <input name=\"password\" class=\"form-control\" type=\"text\" placeholder=\" COMPANY NAME \" pattern=\"\\w{3,50}\" required>
+                  
                 </div>
             
             <br>
@@ -402,9 +402,9 @@ class __TwigTemplate_0ffdc40260358bbc502958cb7cf71f40 extends Template
                 </div>
 
                 <div class=\"form-group\">
-                  <label for=\"exampleInputPassword1\" class=\"form-label mt-4\">PASSWORD</label>
-                  <input name=\"password\" class=\"form-control\" type=\"text\" placeholder=\" PASSWORD \" pattern=\"\\w{8,50}\" required>
-                  <small id=\"emailHelp\" class=\"form-text text-muted\">(min 8 characters)</small>
+                  <label for=\"exampleInputPassword1\" class=\"form-label mt-4\">COMPANY NAME</label>
+                  <input name=\"password\" class=\"form-control\" type=\"text\" placeholder=\" COMPANY NAME \" pattern=\"\\w{3,50}\" required>
+                  
                 </div>
             
             <br>

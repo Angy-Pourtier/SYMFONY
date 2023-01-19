@@ -755,7 +755,7 @@ class __TwigTemplate_03c2ae523d88c1158c6f1963e9663716 extends Template
                         <div class=\"icon\"><i class=\"fas fa-plus\"></i></div>
                       </label>
                       <div class=\"sub-content\">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit dolor. Utfacilis labore, exercitationem fuga minima a illo modi vitaerse dignissimos? Vero?</p>
+                        <p>J'ai trouver tres interressant le fait de manipuler les osciloscopes en regardant les courbes, émise par le courant alternatif.</p>
 
                       </div>
                       
@@ -1616,7 +1616,7 @@ class __TwigTemplate_03c2ae523d88c1158c6f1963e9663716 extends Template
                         <div class=\"icon\"><i class=\"fas fa-plus\"></i></div>
                       </label>
                       <div class=\"sub-content\">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit dolor. Utfacilis labore, exercitationem fuga minima a illo modi vitaerse dignissimos? Vero?</p>
+                        <p>J'ai trouver tres interressant le fait de manipuler les osciloscopes en regardant les courbes, émise par le courant alternatif.</p>
 
                       </div>
                       
