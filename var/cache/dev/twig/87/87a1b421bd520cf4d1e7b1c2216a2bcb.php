@@ -89,26 +89,27 @@ class __TwigTemplate_95bbfe41b6d7759e09bd5d7bd9cdf709 extends Template
 \t\t<div>
 \t\t   <h3 class=centrer> COMPETENCES </h3>
 \t\t\t<h6 class=centrer>
-\t\t\t<p>
-\t\t\t<div>
-\t\t\t<br>
 \t\t\t
-\t\t\t<br>Language informatique : code C++ , python , C
-\t\t\t<br>
-            <br>Systèmes : -Windows dix : base   
-            <br>          &ensp;&ensp;&ensp;&ensp; -Linux : base
-            <br><br>Langues : -Anglais : niveau intermédiaire
-            <br>        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp;-Espagnol : niveau intermédiaire
-\t\t\t<br>
-\t\t\t<br><br>Wireshark 
-\t\t\t<br>
-\t\t\t<br>Sens de l'autonomie
-\t\t\t<br>Bonne organisation
-\t\t\t<br>Travail en équipe
-\t\t\t<br>Sens de l'écoute
-\t\t\t<br>Excellent relationnel
-\t\t\t</p>
-\t\t\t</div>
+\t\t\t\t<div>
+\t\t\t\t\t<p>
+\t\t\t\t\t\t\t<br>
+\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t<br>Language informatique : code C++ , python , C  
+\t\t\t\t\t\t\t<br>
+\t\t\t\t\t\t\t<br>Systèmes : -Windows dix : base   
+\t\t\t\t\t\t\t<br>          &ensp;&ensp;&ensp;&ensp; -Linux : base
+\t\t\t\t\t\t\t<br><br>Langues : -Anglais : niveau intermédiaire
+\t\t\t\t\t\t\t<br>        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp;-Espagnol : niveau intermédiaire
+\t\t\t\t\t\t\t<br>
+\t\t\t\t\t\t\t<br><br>Wireshark 
+\t\t\t\t\t\t\t<br>
+\t\t\t\t\t\t\t<br>Sens de l'autonomie
+\t\t\t\t\t\t\t<br>Bonne organisation
+\t\t\t\t\t\t\t<br>Travail en équipe
+\t\t\t\t\t\t\t<br>Sens de l'écoute
+\t\t\t\t\t\t\t<br>Excellent relationnel
+\t\t\t\t\t</p>
+\t\t\t\t</div>
 \t\t\t</h6>
 \t\t</div>
 
@@ -117,64 +118,71 @@ class __TwigTemplate_95bbfe41b6d7759e09bd5d7bd9cdf709 extends Template
 \t\t<br>
 \t\t<br>
 \t\t<br><br><br><br>
+
 \t\t\t<h3 class=centrer>
 \t\t\tFORMATIONS </h3>
 \t\t\t<p>
-\t\t\t<div>
-\t\t\t<h6>
+\t\t    \t<div>
+\t\t\t\t\t<h6>
 \t\t\t
-\t\t\t<br>
-\t\t\t<br>
+\t\t\t\t\t\t<br>
+\t\t\t\t\t\t<br>
 
-\t\t\t<h6 class=centrer2>2022  &ensp;&ensp;&ensp;           Permis de conduire </h6>
-            <br><br>
-\t\t\t<br>
+\t\t\t\t\t\t<h6 class=centrer2>2022  &ensp;&ensp;&ensp;           Permis de conduire 
+\t\t\t
+\t\t\t\t\t</h6>
+\t\t\t\t\t\t<br><br>
+\t\t\t\t\t\t<br>
 
-\t\t\t<p><h6 class=centrer2>2019-2022   &ensp;&ensp;&ensp;     Baccalauréat technologique : mention assez bien </h6>
-\t\t\t<br>\t\t\t\t\t\t\t  Lycée de la plaine de l'Ain, Ambérieu-en-Bugey
-\t\t\t<br>\t\t\t\t\t\t\t -Spécialité : système information et numérique 
-\t\t\t<br><br>\t</p>\t\t\t\t\t\t
-\t\t\t<br>
+\t\t\t\t\t\t<p><h6 class=centrer2>2019-2022   &ensp;&ensp;&ensp;     Baccalauréat technologique : mention assez bien </h6>
+\t\t\t\t\t\t<br>\t\t\t\t\t\t\t  Lycée de la plaine de l'Ain, Ambérieu-en-Bugey
+\t\t\t\t\t\t<br>\t\t\t\t\t\t\t -Spécialité : système information et numérique 
+\t\t\t\t\t\t<br><br>\t</p>\t\t\t\t\t\t
+\t\t\t\t\t\t<br>
 
-\t\t\t<h6 class=centrer2>2019      &ensp;&ensp;&ensp;        Brevet des collèges</h6>
-\t\t\t<br>\t\t\t\t\t\t\t  Collège de Leyment
-\t\t\t<br>\t\t\t\t\t\t\t -obtenu avec mention assez bien
-        </p>
-\t\t </h6> 
-\t\t</div>
+\t\t\t\t\t\t<h6 class=centrer2>2019      &ensp;&ensp;&ensp;        Brevet des collèges</h6>
+\t\t\t\t\t\t<br>\t\t\t\t\t\t\t  Collège de Leyment
+\t\t\t\t\t\t<br>\t\t\t\t\t\t\t -obtenu avec mention assez bien
+                     </p>
+\t\t\t\t     </h6> 
+\t\t\t\t</div>
 \t\t
 \t\t<br>
 \t\t<br>
 \t\t<br><br><br>
-\t\t    <h3 class=centrer>
+\t\t    
+\t\t\t<h3 class=centrer>
 \t\t\t<p>
 \t\t    EXPÉRIENCE PROFESSIONELS </h3>
-\t\t\t<br>
-\t\t\t<br>
 
-\t\t\t<h6 class=centrer2> 2018   &ensp;&ensp;&ensp;   Stage dans une compagnie d'éducation pour chiens (Lyon) : </h6>
-\t\t\t<br>           
-\t\t\t
-\t\t\t1 semaine de stage en 3ème ou j'ai pu :
-\t\t\t<br>Etre en contact avec le client et comprendre sa demande
-\t\t\t<br>Apprendre à gérer les priorités, le stress et être responsable
-\t\t\t<br>Etre à l'écoute des éducateurs 
-\t\t\t<br> Bilan personel : Connaître le travail en entreprise, répondre au besoin du client et être sous l'autorité d'une personne a été une bonne expérience pour moi .
-\t\t\t<br></p>
-\t\t\t<br>
+\t\t\t\t\t<br>
+\t\t\t\t\t<br>
+
+\t\t\t\t\t<h6 class=centrer2> 2018   &ensp;&ensp;&ensp;   Stage dans une compagnie d'éducation pour chiens (Lyon) : </h6>
+\t\t\t\t\t<br>           
+\t\t\t\t\t
+\t\t\t\t\t1 semaine de stage en 3ème ou j'ai pu :
+\t\t\t\t\t<br>Etre en contact avec le client et comprendre sa demande
+\t\t\t\t\t<br>Apprendre à gérer les priorités, le stress et être responsable
+\t\t\t\t\t<br>Etre à l'écoute des éducateurs 
+\t\t\t\t\t<br> Bilan personel : Connaître le travail en entreprise, répondre au besoin du client et être sous l'autorité d'une personne a été une bonne expérience pour moi .
+\t\t\t\t\t<br>
+\t\t\t\t\t</p>
+\t\t\t\t\t<br>
 
 
-\t\t\t<h6 class=centrer2>2022   &ensp;&ensp;&ensp;   Serre autonome connectée :    </h6>
-\t\t\t<br><p>
-\t\t\t<br>Lors de ce projet de Terminale j'ai pu faire de la programmation, de la communication entre différents éléments, du développement application 
-\t\t\t<br>Bilan personel : Permis de travailler en équipe, s'êre aider mutuellement, d'avoir mis en place toute les étapes pour réaliser le projet et d'avoir été sur le meme projet pendant une longue période
-            </p>
-\t\t\t
-\t\t\t
-            </h6>
-            <br>
-\t\t\t<br>
-\t\t\t<br>
+\t\t\t\t\t<h6 class=centrer2>2022   &ensp;&ensp;&ensp;   Serre autonome connectée :    </h6>
+\t\t\t\t\t<br>
+\t\t\t\t\t<p>
+\t\t\t\t\t<br>Lors de ce projet de Terminale j'ai pu faire de la programmation, de la communication entre différents éléments, du développement application 
+\t\t\t\t\t<br>Bilan personel : Permis de travailler en équipe, s'êre aider mutuellement, d'avoir mis en place toute les étapes pour réaliser le projet et d'avoir été sur le meme projet pendant une longue période
+\t\t\t\t\t</p>
+\t\t\t\t\t
+\t\t\t\t\t
+\t\t\t\t\t</h6>
+\t\t\t\t\t<br>
+\t\t\t\t\t<br>
+\t\t\t\t\t<br>
 \t\t\t
 \t\t\t<h5 class=centrer> 
 \t\t\t <div class=\"container\">
@@ -302,26 +310,27 @@ class __TwigTemplate_95bbfe41b6d7759e09bd5d7bd9cdf709 extends Template
 \t\t<div>
 \t\t   <h3 class=centrer> COMPETENCES </h3>
 \t\t\t<h6 class=centrer>
-\t\t\t<p>
-\t\t\t<div>
-\t\t\t<br>
 \t\t\t
-\t\t\t<br>Language informatique : code C++ , python , C
-\t\t\t<br>
-            <br>Systèmes : -Windows dix : base   
-            <br>          &ensp;&ensp;&ensp;&ensp; -Linux : base
-            <br><br>Langues : -Anglais : niveau intermédiaire
-            <br>        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp;-Espagnol : niveau intermédiaire
-\t\t\t<br>
-\t\t\t<br><br>Wireshark 
-\t\t\t<br>
-\t\t\t<br>Sens de l'autonomie
-\t\t\t<br>Bonne organisation
-\t\t\t<br>Travail en équipe
-\t\t\t<br>Sens de l'écoute
-\t\t\t<br>Excellent relationnel
-\t\t\t</p>
-\t\t\t</div>
+\t\t\t\t<div>
+\t\t\t\t\t<p>
+\t\t\t\t\t\t\t<br>
+\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t<br>Language informatique : code C++ , python , C  
+\t\t\t\t\t\t\t<br>
+\t\t\t\t\t\t\t<br>Systèmes : -Windows dix : base   
+\t\t\t\t\t\t\t<br>          &ensp;&ensp;&ensp;&ensp; -Linux : base
+\t\t\t\t\t\t\t<br><br>Langues : -Anglais : niveau intermédiaire
+\t\t\t\t\t\t\t<br>        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp;-Espagnol : niveau intermédiaire
+\t\t\t\t\t\t\t<br>
+\t\t\t\t\t\t\t<br><br>Wireshark 
+\t\t\t\t\t\t\t<br>
+\t\t\t\t\t\t\t<br>Sens de l'autonomie
+\t\t\t\t\t\t\t<br>Bonne organisation
+\t\t\t\t\t\t\t<br>Travail en équipe
+\t\t\t\t\t\t\t<br>Sens de l'écoute
+\t\t\t\t\t\t\t<br>Excellent relationnel
+\t\t\t\t\t</p>
+\t\t\t\t</div>
 \t\t\t</h6>
 \t\t</div>
 
@@ -330,64 +339,71 @@ class __TwigTemplate_95bbfe41b6d7759e09bd5d7bd9cdf709 extends Template
 \t\t<br>
 \t\t<br>
 \t\t<br><br><br><br>
+
 \t\t\t<h3 class=centrer>
 \t\t\tFORMATIONS </h3>
 \t\t\t<p>
-\t\t\t<div>
-\t\t\t<h6>
+\t\t    \t<div>
+\t\t\t\t\t<h6>
 \t\t\t
-\t\t\t<br>
-\t\t\t<br>
+\t\t\t\t\t\t<br>
+\t\t\t\t\t\t<br>
 
-\t\t\t<h6 class=centrer2>2022  &ensp;&ensp;&ensp;           Permis de conduire </h6>
-            <br><br>
-\t\t\t<br>
+\t\t\t\t\t\t<h6 class=centrer2>2022  &ensp;&ensp;&ensp;           Permis de conduire 
+\t\t\t
+\t\t\t\t\t</h6>
+\t\t\t\t\t\t<br><br>
+\t\t\t\t\t\t<br>
 
-\t\t\t<p><h6 class=centrer2>2019-2022   &ensp;&ensp;&ensp;     Baccalauréat technologique : mention assez bien </h6>
-\t\t\t<br>\t\t\t\t\t\t\t  Lycée de la plaine de l'Ain, Ambérieu-en-Bugey
-\t\t\t<br>\t\t\t\t\t\t\t -Spécialité : système information et numérique 
-\t\t\t<br><br>\t</p>\t\t\t\t\t\t
-\t\t\t<br>
+\t\t\t\t\t\t<p><h6 class=centrer2>2019-2022   &ensp;&ensp;&ensp;     Baccalauréat technologique : mention assez bien </h6>
+\t\t\t\t\t\t<br>\t\t\t\t\t\t\t  Lycée de la plaine de l'Ain, Ambérieu-en-Bugey
+\t\t\t\t\t\t<br>\t\t\t\t\t\t\t -Spécialité : système information et numérique 
+\t\t\t\t\t\t<br><br>\t</p>\t\t\t\t\t\t
+\t\t\t\t\t\t<br>
 
-\t\t\t<h6 class=centrer2>2019      &ensp;&ensp;&ensp;        Brevet des collèges</h6>
-\t\t\t<br>\t\t\t\t\t\t\t  Collège de Leyment
-\t\t\t<br>\t\t\t\t\t\t\t -obtenu avec mention assez bien
-        </p>
-\t\t </h6> 
-\t\t</div>
+\t\t\t\t\t\t<h6 class=centrer2>2019      &ensp;&ensp;&ensp;        Brevet des collèges</h6>
+\t\t\t\t\t\t<br>\t\t\t\t\t\t\t  Collège de Leyment
+\t\t\t\t\t\t<br>\t\t\t\t\t\t\t -obtenu avec mention assez bien
+                     </p>
+\t\t\t\t     </h6> 
+\t\t\t\t</div>
 \t\t
 \t\t<br>
 \t\t<br>
 \t\t<br><br><br>
-\t\t    <h3 class=centrer>
+\t\t    
+\t\t\t<h3 class=centrer>
 \t\t\t<p>
 \t\t    EXPÉRIENCE PROFESSIONELS </h3>
-\t\t\t<br>
-\t\t\t<br>
 
-\t\t\t<h6 class=centrer2> 2018   &ensp;&ensp;&ensp;   Stage dans une compagnie d'éducation pour chiens (Lyon) : </h6>
-\t\t\t<br>           
-\t\t\t
-\t\t\t1 semaine de stage en 3ème ou j'ai pu :
-\t\t\t<br>Etre en contact avec le client et comprendre sa demande
-\t\t\t<br>Apprendre à gérer les priorités, le stress et être responsable
-\t\t\t<br>Etre à l'écoute des éducateurs 
-\t\t\t<br> Bilan personel : Connaître le travail en entreprise, répondre au besoin du client et être sous l'autorité d'une personne a été une bonne expérience pour moi .
-\t\t\t<br></p>
-\t\t\t<br>
+\t\t\t\t\t<br>
+\t\t\t\t\t<br>
+
+\t\t\t\t\t<h6 class=centrer2> 2018   &ensp;&ensp;&ensp;   Stage dans une compagnie d'éducation pour chiens (Lyon) : </h6>
+\t\t\t\t\t<br>           
+\t\t\t\t\t
+\t\t\t\t\t1 semaine de stage en 3ème ou j'ai pu :
+\t\t\t\t\t<br>Etre en contact avec le client et comprendre sa demande
+\t\t\t\t\t<br>Apprendre à gérer les priorités, le stress et être responsable
+\t\t\t\t\t<br>Etre à l'écoute des éducateurs 
+\t\t\t\t\t<br> Bilan personel : Connaître le travail en entreprise, répondre au besoin du client et être sous l'autorité d'une personne a été une bonne expérience pour moi .
+\t\t\t\t\t<br>
+\t\t\t\t\t</p>
+\t\t\t\t\t<br>
 
 
-\t\t\t<h6 class=centrer2>2022   &ensp;&ensp;&ensp;   Serre autonome connectée :    </h6>
-\t\t\t<br><p>
-\t\t\t<br>Lors de ce projet de Terminale j'ai pu faire de la programmation, de la communication entre différents éléments, du développement application 
-\t\t\t<br>Bilan personel : Permis de travailler en équipe, s'êre aider mutuellement, d'avoir mis en place toute les étapes pour réaliser le projet et d'avoir été sur le meme projet pendant une longue période
-            </p>
-\t\t\t
-\t\t\t
-            </h6>
-            <br>
-\t\t\t<br>
-\t\t\t<br>
+\t\t\t\t\t<h6 class=centrer2>2022   &ensp;&ensp;&ensp;   Serre autonome connectée :    </h6>
+\t\t\t\t\t<br>
+\t\t\t\t\t<p>
+\t\t\t\t\t<br>Lors de ce projet de Terminale j'ai pu faire de la programmation, de la communication entre différents éléments, du développement application 
+\t\t\t\t\t<br>Bilan personel : Permis de travailler en équipe, s'êre aider mutuellement, d'avoir mis en place toute les étapes pour réaliser le projet et d'avoir été sur le meme projet pendant une longue période
+\t\t\t\t\t</p>
+\t\t\t\t\t
+\t\t\t\t\t
+\t\t\t\t\t</h6>
+\t\t\t\t\t<br>
+\t\t\t\t\t<br>
+\t\t\t\t\t<br>
 \t\t\t
 \t\t\t<h5 class=centrer> 
 \t\t\t <div class=\"container\">

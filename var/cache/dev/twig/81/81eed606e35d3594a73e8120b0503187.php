@@ -228,6 +228,7 @@ class __TwigTemplate_6cda1790fb787a6ac1f0c3572adf395f extends Template
                   <input name=\"password\" class=\"form-control\" type=\"text\" placeholder=\" NOM DE L'ENTREPRISE \" pattern=\"\\w{3,50}\" required>
                   
                 </div>
+
             
             <br>
 
@@ -424,6 +425,7 @@ class __TwigTemplate_6cda1790fb787a6ac1f0c3572adf395f extends Template
                   <input name=\"password\" class=\"form-control\" type=\"text\" placeholder=\" NOM DE L'ENTREPRISE \" pattern=\"\\w{3,50}\" required>
                   
                 </div>
+
             
             <br>
 

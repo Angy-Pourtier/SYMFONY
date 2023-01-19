@@ -88,7 +88,7 @@ class __TwigTemplate_1716c167eb486f9852a956811211fca5 extends Template
         echo "          <br><br><br><br><br><br><br>
                 <span>
                    <div id=\"titre2\" >
-                    <h1 class = cadreee href=\"http://www.thismanslife.co.uk\" target=\"_blank\">My hobbies and interests</h1>
+                    <h1 class = cadreee  target=\"_blank\">My hobbies and interests</h1>
                     </div>
           
                 </span>   \t
@@ -100,7 +100,7 @@ class __TwigTemplate_1716c167eb486f9852a956811211fca5 extends Template
                     
                 <span>    
                     <p>
-                    I am a person who enjoys many things, whether it is helping people in need,
+                    I am a person who enjoys many things, whether it is helping people ,
                     working in a team, spending time outdoors, spending time with my family or even ...<br><br>
                         
                     Playing sports :
@@ -120,7 +120,7 @@ class __TwigTemplate_1716c167eb486f9852a956811211fca5 extends Template
                 </span>
             
             <br><br>
-             With my friends :
+             To go out with my friends :
                     </p>
              </h5>
                     <br>
@@ -243,7 +243,7 @@ class __TwigTemplate_1716c167eb486f9852a956811211fca5 extends Template
           <br><br><br><br><br><br><br>
                 <span>
                    <div id=\"titre2\" >
-                    <h1 class = cadreee href=\"http://www.thismanslife.co.uk\" target=\"_blank\">My hobbies and interests</h1>
+                    <h1 class = cadreee  target=\"_blank\">My hobbies and interests</h1>
                     </div>
           
                 </span>   \t
@@ -255,7 +255,7 @@ class __TwigTemplate_1716c167eb486f9852a956811211fca5 extends Template
                     
                 <span>    
                     <p>
-                    I am a person who enjoys many things, whether it is helping people in need,
+                    I am a person who enjoys many things, whether it is helping people ,
                     working in a team, spending time outdoors, spending time with my family or even ...<br><br>
                         
                     Playing sports :
@@ -272,7 +272,7 @@ class __TwigTemplate_1716c167eb486f9852a956811211fca5 extends Template
                 </span>
             
             <br><br>
-             With my friends :
+             To go out with my friends :
                     </p>
              </h5>
                     <br>
