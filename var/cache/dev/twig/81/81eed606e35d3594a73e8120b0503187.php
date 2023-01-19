@@ -135,10 +135,12 @@ class __TwigTemplate_6cda1790fb787a6ac1f0c3572adf395f extends Template
                 <div class=\"container text-center h-100\">
                   <div class=\"row h-100\">
                    <div class=\"w-100 align-self-center\">
-                    <h4> Je suis une personne <span> </span> , et qui veut découvrire le monde du travail .  </h4>
+                    <h5> Je suis étudiant en Réseaux et télécoms, je suis une personne <span> </span> , et qui veut découvrire le monde du travail .  </h5>
                   </div>
                  </div>
                 </div>
+                <br>
+                <br>
                 
               </header>
 
@@ -151,7 +153,7 @@ class __TwigTemplate_6cda1790fb787a6ac1f0c3572adf395f extends Template
 
 
           &ensp;<img src=";
-        // line 72
+        // line 74
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("photos/IMG_0733.jpg"), "html", null, true);
         echo " class=\"img\" >
 
@@ -271,7 +273,7 @@ class __TwigTemplate_6cda1790fb787a6ac1f0c3572adf395f extends Template
 
     public function getDebugInfo()
     {
-        return array (  155 => 72,  88 => 7,  78 => 6,  59 => 4,  36 => 1,);
+        return array (  157 => 74,  88 => 7,  78 => 6,  59 => 4,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -332,10 +334,12 @@ class __TwigTemplate_6cda1790fb787a6ac1f0c3572adf395f extends Template
                 <div class=\"container text-center h-100\">
                   <div class=\"row h-100\">
                    <div class=\"w-100 align-self-center\">
-                    <h4> Je suis une personne <span> </span> , et qui veut découvrire le monde du travail .  </h4>
+                    <h5> Je suis étudiant en Réseaux et télécoms, je suis une personne <span> </span> , et qui veut découvrire le monde du travail .  </h5>
                   </div>
                  </div>
                 </div>
+                <br>
+                <br>
                 
               </header>
 
